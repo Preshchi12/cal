@@ -1,0 +1,92 @@
+*{box-sizing: border-box;}
+body{margin:0px;font-family: Arial, Helvetica, sans-serif;background-color: lavender;}
+
+.container{
+    width:100%;
+    display: flex;
+   
+}
+
+.con1{
+    /* width:70%; */
+height:100%;
+/* border: 1px solid red; */
+margin-right: 20px;
+
+}
+
+.con2{
+    /* width:45%; */
+    height:100%;
+    /* margin-right:auto; */
+    }
+    .con2 h1{
+        margin-left: 80px;
+        
+    }
+    .con2 p{
+        margin-left: 150px;
+        
+    }
+.logo{
+    width: 200px;
+    height:auto;
+    margin-top: 15px;
+    font-size: larger;
+}
+
+.form-table{
+    width:100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+.form-table td{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    line-height: 60px;
+    
+}
+.input-style{
+    padding:13px;
+    width:450px;
+    border:1px solid #ccc;
+    color:gray;
+    font-size: 15px;
+}
+
+.input1{
+    padding:12px;
+    width:205px;
+    font-size: 15px;
+    color:gray;
+    
+}
+
+
+
+.icon{
+    color:white;
+    background: #1c0127;
+    padding: 13.5px;
+
+}
+
+.btn{
+    width:30%;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: #160216;
+    cursor: pointer;
+    margin-left: 70px;
+   margin-top: 30px;
+}
+
+.btn:hover{
+      background-color: #48044a;
+}
+select{
+    background-color: white;
+}
+
+
